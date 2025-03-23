@@ -96,5 +96,6 @@ The Smart Account **is not deployed immediately** when the passkey is generated.
 4. **Scalable Infrastructure**: The deterministic address allows users to share their wallet address confidently, knowing the contract will be deployed when needed without changing the address.
 
 By integrating **ERC-4337 Smart Accounts**, Passwallet Wallet bridges the gap between **usability and security**, making blockchain interactions as simple as traditional Web2 logins while maintaining the benefits of decentralization and user control. This approach ensures that **any user, technical or not, can interact with the blockchain seamlessly** and without the need for extensive setup or technical knowledge.
+<br>
 Mantle wallet deployment address: 0xe38b6847E611e942E6c80eD89aE867F522402e80 <br>
 [Demo](https://youtu.be/q7SHTiNqRIE)
