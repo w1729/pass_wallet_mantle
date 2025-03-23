@@ -1,0 +1,37 @@
+version: "2.4"
+
+services:
+  bundler:
+    image: "node:23-alpine"
+    network_mode: "host"
+    user: "root"
+    volumes:
+      - ./bundler:/app
+    env_file:
+      - .env
+    build:
+      context: ./bundler
+    working_dir: /app
+    ports:
+      - "${BUNDLER_PORT}:${BUNDLER_PORT}"
+    mem_limit: 32G
+    mem_reservation: 32G
+    mem_swappiness: 100
+    memswap_limit: 32G
+    command: ./run.sh
+
+
+  paymaster:
+    image: "node:23-alpine"
+    network_mode: "host"
+    user: "root"
+    volumes:
+      - ./paymaster:/app
+    env_file:
+      - .env
+    build:
+      context: ./paymaster
+    working_dir: /app
+    ports:
+      - "${PAYMASTER_PORT}:${PAYMASTER_PORT}"
+    command: ./run.sh  
