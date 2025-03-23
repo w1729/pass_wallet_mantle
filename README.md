@@ -20,13 +20,13 @@ This reliance on mnemonics places the burden of security entirely on users, crea
 
 Ultimately, making blockchain accessible to the everyday user is essential for realizing its transformative potential and achieving mainstream adoption across industries.
 
-# Objective of Passwallet 
+# Objective of Passwallet
 
 Passwallet Wallet aims to tackle the challenges of blockchain onboarding through the integration of **account abstraction** and **passkeys**. This innovative approach ensures a seamless and intuitive user experience, allowing users to set up their wallets with just a single click on their smartphone or laptop. By eliminating the need for complicated mnemonic phrases and private key management, users can effortlessly generate passkey credentials and set up **smart accounts**, drastically simplifying the onboarding process and enhancing convenience.
 
 Account abstraction decouples complex blockchain operations from the user, allowing actions like signing transactions or paying gas fees to happen behind the scenes. This abstraction makes interacting with decentralized applications (dApps) feel as easy as using a traditional Web2 app. The use of **passkeys**, which rely on biometrics or hardware-based authentication, adds an extra layer of security without compromising usability.
 
-### Current Features of Passwallet 
+### Current Features of Passwallet
 
 - **Web Version**: The wallet is accessible directly through a web interface, ensuring cross-platform availability and eliminating the need for cumbersome installations.
 - **Telegram Mini Wallet Integration**: Passwallet Wallet is integrated with **Telegram’s Mini Apps**, enabling users to access wallet functionalities seamlessly within the familiar Telegram environment. This integration offers a lightweight, Web2-like experience, making it easier for new users to engage with blockchain applications without friction. (currenlty support telegram desktop and web version).
@@ -48,9 +48,6 @@ With its **plug-and-play compatibility** via WalletConnect, Passwallet Wallet re
 # Passwallet AI Agent
 
 PassWallet comes with a built-in AI agent designed to assist users with various tasks seamlessly. This AI-powered assistant enables users to interact using natural language, making transactions and other blockchain operations much more intuitive. With PassWallet, users no longer need to switch between multiple platforms for different DeFi interactions. Instead, they can perform everything directly from the PassWallet interface, simplifying the overall experience and making blockchain more accessible to everyone
-
-
-
 
 ### Secure Account Creation with Passkeys
 
@@ -99,9 +96,5 @@ The Smart Account **is not deployed immediately** when the passkey is generated.
 4. **Scalable Infrastructure**: The deterministic address allows users to share their wallet address confidently, knowing the contract will be deployed when needed without changing the address.
 
 By integrating **ERC-4337 Smart Accounts**, Passwallet Wallet bridges the gap between **usability and security**, making blockchain interactions as simple as traditional Web2 logins while maintaining the benefits of decentralization and user control. This approach ensures that **any user, technical or not, can interact with the blockchain seamlessly** and without the need for extensive setup or technical knowledge.
-
-[Demo](https://youtu.be/LIsCp4QkGJU)
-
-
-
-
+Mantle wallet deployment address: 0xe38b6847E611e942E6c80eD89aE867F522402e80 <br>
+[Demo](https://youtu.be/q7SHTiNqRIE)
